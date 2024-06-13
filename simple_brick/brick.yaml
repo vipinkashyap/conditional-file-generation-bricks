@@ -1,0 +1,14 @@
+name: simple_brick
+description: A new brick created with the Mason CLI.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.50 <0.1.0"
+
+vars:
+  is_baseapp:
+    type: boolean
+    description: A boolean value.
+    default: false
+
